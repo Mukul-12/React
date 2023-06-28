@@ -1,7 +1,5 @@
-// import logo from './logo.svg';
 import './App.css';
-// import Counter from './Components/Counter';
-// import Greet from './Components/LearnProps';
+import Conditional from './Components/Conditional_rendering';
 import ParentComponent from './Components/props use for inheritance/ParentComponent';
 
 function App() {
@@ -12,6 +10,7 @@ function App() {
       {/* <Counter /> */}
       {/* <Click /> */}
       <ParentComponent />
+      <Conditional />
     </div>
   );
 }
