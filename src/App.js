@@ -1,6 +1,7 @@
 import './App.css';
 import Conditional from './Components/Conditional_rendering';
-import List from './Components/List_Rendering';
+import List from './Components/List_Rendering/List_Rendering';
+import Object from './Components/List_Rendering/Object_rendering';
 import ParentComponent from './Components/props use for inheritance/ParentComponent';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <ParentComponent />
       <Conditional />
       <List />
+      <Object />
     </div>
   );
 }
