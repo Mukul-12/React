@@ -1,5 +1,6 @@
 import './App.css';
 import Conditional from './Components/Conditional_rendering';
+import List from './Components/List_Rendering';
 import ParentComponent from './Components/props use for inheritance/ParentComponent';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       {/* <Click /> */}
       <ParentComponent />
       <Conditional />
+      <List />
     </div>
   );
 }
