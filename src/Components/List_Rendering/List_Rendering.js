@@ -9,7 +9,7 @@ function List_Rendering() {
         <h1>{names[1]}</h1> */}
 
         {
-            names.map(name => <h5>{name}</h5>)
+            names.map((name,index) => <h5 key={index}>{index} {name}</h5>)
         }
         {/* namelist */}
     </div>
