@@ -1,5 +1,6 @@
 import './App.css';
-import Form from './Components/Form_Handling';
+import Updating from './Components/LifeCycle_Methods/Updating';
+
 
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
       <List />
       <Object /> */}
       {/* <Style primary={true} /> */}
-      <Form />
+      {/* <Form /> */}
+      <Updating />
     </div>
   );
 }
