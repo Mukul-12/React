@@ -8,6 +8,7 @@ export default class Child extends Component {
          
       }
       console.log('Child Constructor')
+      console.log('bvgh')
     }
 
     static getDerivedStateFromProps(props,state){
