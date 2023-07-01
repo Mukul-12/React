@@ -1,5 +1,6 @@
 import './App.css';
-import Style from './Components/Styling/style';
+import Form from './Components/Form_Handling';
+
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       <Conditional />
       <List />
       <Object /> */}
-      <Style primary={true} />
+      {/* <Style primary={true} /> */}
+      <Form />
     </div>
   );
 }
