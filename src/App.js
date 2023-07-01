@@ -1,8 +1,5 @@
 import './App.css';
-import Conditional from './Components/Conditional_rendering';
-import List from './Components/List_Rendering/List_Rendering';
-import Object from './Components/List_Rendering/Object_rendering';
-import ParentComponent from './Components/props use for inheritance/ParentComponent';
+import Style from './Components/Styling/style';
 
 function App() {
   return (
@@ -11,10 +8,11 @@ function App() {
       {/* <LearnState /> */}
       {/* <Counter /> */}
       {/* <Click /> */}
-      <ParentComponent />
+      {/* <ParentComponent />
       <Conditional />
       <List />
-      <Object />
+      <Object /> */}
+      <Style primary={true} />
     </div>
   );
 }
