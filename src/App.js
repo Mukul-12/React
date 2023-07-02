@@ -1,7 +1,5 @@
 import './App.css';
-import Updating from './Components/LifeCycle_Methods/Updating';
-
-
+import ParentComponent from './Components/PureComponent/ParentComponent';
 
 function App() {
   return (
@@ -16,7 +14,8 @@ function App() {
       <Object /> */}
       {/* <Style primary={true} /> */}
       {/* <Form /> */}
-      <Updating />
+      {/* <Updating /> */}
+      <ParentComponent />
     </div>
   );
 }
