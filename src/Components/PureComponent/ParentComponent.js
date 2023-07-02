@@ -1,6 +1,7 @@
 import React, { Component} from 'react'
 import NormalComponent from './NormalComponent'
 import Pure from './Pure'
+import Memo from './memo'
 
 class ParentComponent extends Component {
   constructor(props) {
@@ -22,8 +23,9 @@ class ParentComponent extends Component {
     return (
         <div>
       ParentComponent
-      <NormalComponent name={this.state.name} />
-      <Pure name={this.state.name}/>
+      {/* <NormalComponent name={this.state.name} />
+      <Pure name={this.state.name}/> */}
+      <Memo name={this.state.name}/>
       </div>
     )
   }
